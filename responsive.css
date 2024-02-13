@@ -1,0 +1,209 @@
+@media screen and (max-width: 768px){
+    .navMenuContent{
+        /* display: none;    */
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: -50px;
+        padding: 2rem;
+        /* text-align: start; */
+        width: 100vw;
+        align-items: start;
+        /* height: 60vh; */
+        z-index: 88;
+        /* bottom: 0; */
+        transform: translateX(-100%);
+        background-color: blueviolet;
+        transition: .5s ease;
+    }
+    .navMenuContent.active{
+        transform: translateX(0);
+    }
+    .mobileMenu{
+        display: block;
+    }
+    .navMenuContent> button{
+        border-radius: 0;
+        display: block;
+        width: 100%;
+        text-align: start;
+        padding-block: 5px;
+        border-bottom: 1px solid black;
+    }
+    .menuBar{
+        display: block;
+    }
+    .final,
+    .button2,
+    .searchInput {
+        display: none !important;
+    }
+    .container-img{
+        width: 50%;
+    }
+    .third{
+        flex-direction: column;
+        padding-left: 150px;
+    }
+    .fourth{
+        flex-direction: column;
+    }
+    .main-circle{
+        flex-wrap: wrap;
+        
+    }
+    .circle{
+        width: 100%;
+       flex-direction: row;
+       gap: 10px;
+        align-items: center;
+    }
+    .boxe p{
+        font-size: 20px;
+    }
+    .box img{
+        height: 60px;
+    }
+    .campignsection{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .campain{
+        width: 45%;
+    }
+    .colorimage{
+        /* padding-left: 0;
+        padding-top: 0;
+        padding-right: 0; */
+        flex-wrap: wrap;
+
+    }
+    .latestsection{
+        flex-wrap: wrap;
+    }
+    .latestsection>:nth-child(n+2){
+        display: none;
+    }
+    .latest{
+        width: 100%;
+    }
+    .latest img{
+        width: 100%;
+    }
+    .latestcontent h6,
+    .latestcontent h5,
+    .latestcontent p{
+        padding: 0 !important;
+    }
+    .Difference h6{
+        font-size: 20px;
+        display: flex;
+        width: 80%;
+        padding-left: 20px;
+        width: 80%;
+    
+    }
+    .lastcontent{
+        flex-wrap: wrap;
+    }
+    .lastcontent>:nth-child(1)_{
+        width: 100%;
+    }
+    .lastcontent>:nth-child(n +2){
+        width: 48%;
+    }
+    .abcd{
+        flex-direction: column;
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+     
+    
+    
+
+    
+        
+    }
+
+
+    @media screen and (max-width: 480px){
+        .navUp{
+            display: none !important;
+        }
+        .navlogo{
+            padding-right: 100px;
+        }
+        .container-img{
+            width: 100%;
+        }
+        .immmage  img{
+            height: 200px;
+        }
+        .third{
+            padding: 0;
+        }
+        .fourth{
+            flex-direction: column;
+        }
+        .fourth{
+            flex-direction: column-reverse;
+        }
+        .child-image img{
+            height: 60vw;
+            
+        }
+        .vision {
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .vision>div{
+            width: 100%;
+
+        }
+        .boxe{
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 10px;
+            gap: 10px;
+            font-size: 30px;
+        }
+        .campaignSection{
+        /* flex-direction: column; */
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        
+        }
+        .campaignSection::-webkit-scrollbar{
+            display: none;
+        }
+        .campain {
+            width: 100%;
+
+        }
+        .colorimage{
+            /* flex-direction: column; */
+            padding: 0;
+        }
+        .colorimage>div{
+            width: 100%;
+        }
+        .colorimage1 {
+            justify-content: center;
+        }
+        .Contributers h2{
+            padding: 0;
+        }.scan{
+            padding: 0;
+            flex-direction: column;
+        }
+        }
+    
+
+
+
+
+    
+
+
+    
